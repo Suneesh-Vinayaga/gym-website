@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "group-classes",
+      "description": "A group of people in a fitness class",
+      "imageUrl": "https://images.unsplash.com/photo-1518622358385-8ea7d0794bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxncm91cCUyMGZpdG5lc3N8ZW58MHx8fHwxNzYxOTU0NzE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group fitness"
+    },
+    {
+      "id": "personal-training",
+      "description": "A personal trainer with a client",
+      "imageUrl": "https://images.unsplash.com/photo-1619361728853-2542f3864532?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uYWwlMjB0cmFpbmVyfGVufDB8fHx8MTc2MTkyNzU1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "personal trainer"
+    },
+    {
+      "id": "open-gym",
+      "description": "View of the gym equipment",
+      "imageUrl": "https://images.unsplash.com/photo-1591311630200-ffa9120a540f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxneW0lMjBlcXVpcG1lbnR8ZW58MHx8fHwxNzYxODg1NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym equipment"
+    }
+  ]
 }
