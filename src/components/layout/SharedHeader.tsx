@@ -15,23 +15,14 @@ const navLinks = [
   { name: 'Join', href: '/join' },
 ];
 
-export default function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+export default function SharedHeader() {
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith('/#')) {
       e.preventDefault();
+      // This will require a navigation to home and then scrolling
       const targetId = href.replace(/.*#/, '');
-      const elem = document.getElementById(targetId);
-      elem?.scrollIntoView({ behavior: 'smooth' });
+      window.location.href = `/${'#' + targetId}`;
     }
   };
 
@@ -54,11 +45,11 @@ export default function Header() {
     <header
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'bg-background/95 backdrop-blur-sm border-b border-border' : 'bg-transparent'
+        'bg-background/95 backdrop-blur-sm border-b border-border'
       )}
     >
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" onClick={(e) => handleLinkClick(e, '/#hero')} className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <Dumbbell className="h-7 w-7 text-accent" />
           <span className="text-xl font-bold font-headline">TOM FITNESS</span>
         </Link>
@@ -80,7 +71,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-background">
               <div className="flex flex-col gap-8 pt-10">
-                <Link href="/" onClick={(e) => handleLinkClick(e, '/#hero')} className="flex items-center gap-2">
+                <Link href="/" className="flex items-center gap-2">
                   <Dumbbell className="h-7 w-7 text-accent" />
                   <span className="text-xl font-bold font-headline">TOM FITNESS</span>
                 </Link>
@@ -110,3 +101,4 @@ export default function Header() {
     </header>
   );
 }
+

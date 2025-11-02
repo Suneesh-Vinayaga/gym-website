@@ -1,3 +1,4 @@
+
 import { Dumbbell, Twitter, Facebook, Instagram } from 'lucide-react';
 import Link from 'next/link';
 
@@ -13,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <Link href="#hero" className="flex items-center gap-2 mb-4">
+            <Link href="/" className="flex items-center gap-2 mb-4">
               <Dumbbell className="h-7 w-7 text-accent" />
               <span className="text-xl font-bold font-headline">TOM FITNESS</span>
             </Link>

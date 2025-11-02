@@ -6,12 +6,6 @@ import { Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 export default function CallToAction() {
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    const targetId = (e.currentTarget.href.split('#')[1] || '');
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({ behavior: 'smooth' });
-  };
     
   return (
     <section id="join" className="bg-accent text-accent-foreground">
@@ -25,7 +19,7 @@ export default function CallToAction() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" variant="primary" className="text-lg font-bold">
-              <Link href="#join" onClick={handleScroll}>Join Now</Link>
+              <Link href="/join">Join Now</Link>
             </Button>
           </div>
         </div>
