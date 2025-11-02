@@ -70,7 +70,7 @@ export default function Hero() {
           Find Your Fit.
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-foreground/80">
-          Welcome to Deer Fitness, where dedication meets results. Join our community and transform your life.
+          Welcome to TOM FITNESS, where dedication meets results. Join our community and transform your life.
         </p>
         <div className="mt-10">
           <Button asChild size="lg" variant="secondary" className="text-lg font-bold">

@@ -15,9 +15,9 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="#hero" className="flex items-center gap-2 mb-4">
               <Dumbbell className="h-7 w-7 text-accent" />
-              <span className="text-xl font-bold font-headline">Deer Fitness</span>
+              <span className="text-xl font-bold font-headline">TOM FITNESS</span>
             </Link>
-            <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Deer Fitness. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} TOM FITNESS. All rights reserved.</p>
           </div>
           
           <div className="text-center">

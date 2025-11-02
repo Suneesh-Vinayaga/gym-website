@@ -12,7 +12,7 @@ export default function About() {
                 More Than Just a Gym
             </p>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                Deer Fitness was founded on the belief that fitness is a journey, not a destination. We provide a supportive, high-energy environment for everyone, from beginners to seasoned athletes, to achieve their personal best.
+                TOM FITNESS was founded on the belief that fitness is a journey, not a destination. We provide a supportive, high-energy environment for everyone, from beginners to seasoned athletes, to achieve their personal best.
             </p>
         </div>
 

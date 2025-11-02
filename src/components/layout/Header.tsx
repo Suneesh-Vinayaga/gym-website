@@ -58,7 +58,7 @@ export default function Header() {
       <div className="container flex h-20 items-center justify-between">
         <Link href="#hero" onClick={(e) => handleLinkClick(e, '#hero')} className="flex items-center gap-2">
           <Dumbbell className="h-7 w-7 text-accent" />
-          <span className="text-xl font-bold font-headline">Deer Fitness</span>
+          <span className="text-xl font-bold font-headline">TOM FITNESS</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-4">
@@ -80,7 +80,7 @@ export default function Header() {
               <div className="flex flex-col gap-8 pt-10">
                 <Link href="#hero" onClick={(e) => handleLinkClick(e, '#hero')} className="flex items-center gap-2">
                   <Dumbbell className="h-7 w-7 text-accent" />
-                  <span className="text-xl font-bold font-headline">Deer Fitness</span>
+                  <span className="text-xl font-bold font-headline">TOM FITNESS</span>
                 </Link>
                 <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (

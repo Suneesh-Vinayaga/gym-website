@@ -21,7 +21,7 @@ export default function CallToAction() {
             Ready to Start Your Journey?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-accent-foreground/90">
-            Your transformation begins with a single step. Join the Deer Fitness family today and unlock your true potential.
+            Your transformation begins with a single step. Join the TOM FITNESS family today and unlock your true potential.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" variant="primary" className="text-lg font-bold">

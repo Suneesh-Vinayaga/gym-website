@@ -3,7 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const testimonials = [
   {
-    quote: "Joining Deer Fitness was the best decision I've ever made for my health. The community is so supportive and the trainers are top-notch!",
+    quote: "Joining TOM FITNESS was the best decision I've ever made for my health. The community is so supportive and the trainers are top-notch!",
     name: "Jessica Miller",
     handle: "Fitness Enthusiast",
     avatar: "https://picsum.photos/seed/avatar1/100/100",
