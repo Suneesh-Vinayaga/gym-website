@@ -68,7 +68,7 @@ export default function JoinPage() {
             </ScrollAnimation>
 
             <ScrollAnimation>
-                <Card className="flex flex-col h-full">
+                <Card className="flex flex-col h-full border-women-accent border-2 shadow-lg shadow-women-accent/10">
                     <CardHeader className="text-center">
                         <CardTitle className="text-3xl font-headline">Women's Membership</CardTitle>
                         <CardDescription className="text-4xl font-bold text-foreground">$65.00 / month</CardDescription>
@@ -78,14 +78,14 @@ export default function JoinPage() {
                          <ul className="space-y-3">
                             {womensFeatures.map((feature) => (
                                 <li key={feature} className="flex items-center gap-3">
-                                    <Check className="h-5 w-5 text-accent flex-shrink-0" />
+                                    <Check className="h-5 w-5 text-women-accent flex-shrink-0" />
                                     <span className="text-foreground/90">{feature}</span>
                                 </li>
                             ))}
                         </ul>
                     </CardContent>
                     <CardFooter>
-                        <Button variant="primary" size="lg" className="w-full text-lg">Select Plan</Button>
+                        <Button style={{ backgroundColor: 'hsl(var(--women-accent))' }} size="lg" className="w-full text-lg hover:brightness-90 transition-all">Select Plan</Button>
                     </CardFooter>
                 </Card>
             </ScrollAnimation>
