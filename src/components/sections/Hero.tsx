@@ -63,7 +63,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/70 backdrop-blur-[2px]"></div>
 
       <div className="relative z-10 text-center text-primary-foreground p-4">
-        <h1 className="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter drop-shadow-lg">
+        <h1 className="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter drop-shadow-lg text-white">
           Forge Your Strength.
         </h1>
         <h1 className="font-headline text-5xl md:text-7xl font-black uppercase tracking-tighter text-accent drop-shadow-lg">
