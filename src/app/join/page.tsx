@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
 import { ScrollAnimation } from '@/components/shared/ScrollAnimation';
 import SharedHeader from '@/components/layout/SharedHeader';
+import Footer from '@/components/layout/Footer';
 
 const mensFeatures = [
   "Full access to free weights",
@@ -19,9 +20,9 @@ const womensFeatures = [
 
 export default function JoinPage() {
   return (
-    <div className="bg-background text-foreground min-h-screen">
+    <div className="flex flex-col bg-background text-foreground min-h-screen">
       <SharedHeader />
-      <main className="container mx-auto px-4 py-16 sm:py-24">
+      <main className="container mx-auto px-4 py-16 sm:py-24 flex-grow">
         <ScrollAnimation>
           <div className="text-center max-w-2xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl font-headline">
@@ -91,6 +92,7 @@ export default function JoinPage() {
             </ScrollAnimation>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
